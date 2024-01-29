@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+a{color: #343434; text-decoration: none}
+ul{list-style: none}
+#menu ul li a{color: #343434; text-transform: uppercase; font-weight: bold; font-size: 13px}
+@media(max-width:768px){#menu ul li{border-bottom: 1px solid #ddd;}}
+.about-me .card img {max-width: 150px; border-radius: 150px}
+.about-me .card .card-body h6{font-weight: bold; margin: 15px 0}
+.about-me .card .card-body p{font-style: italic; font-size: 13px}
+.about-me .card .card-body ul li a i{padding-right: 10px}
+
+@media(max-width:760px)
+{
+	.about-me .card{display: none}
+}
+.main-content ul{list-style: disc}
+.main-content .text-caption{font-size: 0.75rem; background-color: #efefef}
+.text-bold {font-weight: bold}

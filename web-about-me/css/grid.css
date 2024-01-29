@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+.container { width: 100%; }
+* {box-sizing: border-box}
+.row {display: flex; flex-wrap: wrap}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"]
+{
+	padding: 12px;
+}
+
+/*--- medium divice --- tablet ipad ---*/
+@media (min-width:768px)
+{
+	.container { width: 540px; margin: auto}
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33.33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}
+}
+
+/*   large device  -- pc 992 trở lên 1024*/
+@media (min-width:992px)
+{
+	.container { width: 960px; margin: auto}
+	.col-lg-1 {width: 8.33%;}
+	.col-lg-2 {width: 16.66%;}
+	.col-lg-3 {width: 25%;}
+	.col-lg-4 {width: 33.33%;}
+	.col-lg-5 {width: 41.66%;}
+	.col-lg-6 {width: 50%;}
+	.col-lg-7 {width: 58.33%;}
+	.col-lg-8 {width: 66.66%;}
+	.col-lg-9 {width: 75%;}
+	.col-lg-10 {width: 83.33%;}
+	.col-lg-11 {width: 91.66%;}
+	.col-lg-12 {width: 100%;}
+}
+
+/*   x-large device  -- pc 1200 trở lên 1280 1360 1366 1380*/
+@media (min-width:1200px)
+{
+	.container { width: 1140px; margin: auto}
+	.col-xl-1 {width: 8.33%;}
+	.col-xl-2 {width: 16.66%;}
+	.col-xl-3 {width: 25%;}
+	.col-xl-4 {width: 33.33%;}
+	.col-xl-5 {width: 41.66%;}
+	.col-xl-6 {width: 50%;}
+	.col-xl-7 {width: 58.33%;}
+	.col-xl-8 {width: 66.66%;}
+	.col-xl-9 {width: 75%;}
+	.col-xl-10 {width: 83.33%;}
+	.col-xl-11 {width: 91.66%;}
+	.col-xl-12 {width: 100%;}
+}
+
+/*   xx-large device  -- pc 1400 trở lên */
+@media (min-width:1400px)
+{
+	.container { width: 1320px; margin: auto}
+	.col-xxl-1 {width: 8.33%;}
+	.col-xxl-2 {width: 16.66%;}
+	.col-xxl-3 {width: 25%;}
+	.col-xxl-4 {width: 33.33%;}
+	.col-xxl-5 {width: 41.66%;}
+	.col-xxl-6 {width: 50%;}
+	.col-xxl-7 {width: 58.33%;}
+	.col-xxl-8 {width: 66.66%;}
+	.col-xxl-9 {width: 75%;}
+	.col-xxl-10 {width: 83.33%;}
+	.col-xxl-11 {width: 91.66%;}
+	.col-xxl-12 {width: 100%;}
+}
+
+/*--- navbar resposive-------------*/
+.navbar {padding: 5px}
+.navbar .container {position: relative}
+.navbar .btn-toggle 
+{
+	position: absolute;
+	 right: 5px;
+	  top: 10px
+}
